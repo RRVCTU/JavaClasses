@@ -1,0 +1,16 @@
+Loops:
+    Loops in java help us execute a piece of code again and and again.
+    There are mainly 4 types of loops:
+        1) for loop
+        2) while loop
+        3) do while loop
+        4) enhanced for loop.
+Why we should learn about loop?
+    Because loops help us write cleaner and scalable code.
+    For example if you have to test password field on a webpage you can create different variation of data
+    in an excel sheet then you pick all the values one by one and test the field.
+Syntax for loops:
+    for loop
+    for(starting point; ending point; step size){
+        code that we want repeat
+    }

@@ -1,0 +1,23 @@
+Java Class 7
+
+Switch case: is a statament which execute only one statement from the list of statements. It makes code cleaner.
+
+Switch syntax:
+
+    switch(variable) {
+        case value1:
+                code A;
+                break;
+        case value2:
+                code B;
+                break;
+        default:
+                code C;
+                break;
+    }
+
+Limitations of Switch statment:
+    - data type: CANNOT work with double, float, long, boolean data types.
+    - operators: CANNOT work with logical and realtional operators.
+
+Loops -

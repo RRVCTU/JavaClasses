@@ -1,0 +1,11 @@
+Arrays:
+    Arrays are consecutive memory locations which store same type of data.
+Why we need arrays?
+    Arrays help us store large amounts of data in a single variable.
+    For example if we want to store the names of 100 students we don't need to create 100 variables
+    we can simply create an array of size 100 and it will store the names.
+Syntax(how to use):
+    Data type [] name of array = new data type [size]
+    Data type [] name of array = new data type []{ store the elements}.
+For example an int array that stores three numbers
+    int [] arr = new int[] {10, 20, 30};

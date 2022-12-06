@@ -1,0 +1,9 @@
+JAVA Class 8
+
+Loops in Java:
+1) For loop
+2) While loop
+3) Do while llo
+4) Enhanced for loop/for each loop/advanced for loop
+
+for loop - when we know number of repetitions/iterations in advance
