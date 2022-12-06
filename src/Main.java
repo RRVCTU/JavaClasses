@@ -5,5 +5,7 @@ class Main {
         String s = "Strings are immutable";
         s = s.concat("all the time");
         System.out.println(s);
+
+        System.out.println("Change in the project for GitHub check");
     }
 }
