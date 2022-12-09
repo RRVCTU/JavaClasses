@@ -1,3 +1,4 @@
+/*
 package utils;
 
 import org.apache.poi.ss.usermodel.Row;
@@ -12,8 +13,6 @@ import java.util.List;
 import java.util.Map;
 
 public class ExcelReader {
-
-    // Break till 1:25
 
     // We created this method so that everytime we need to read the data from Excel file we can reuse this method
     public static List<Map<String, String>> read(String path) {
@@ -68,3 +67,4 @@ public class ExcelReader {
         return excelData;
     }
 }
+*/

@@ -1,6 +1,5 @@
+/*
 package class30;
-
-import utils.ExcelReader;
 
 import java.io.IOException;
 
@@ -25,8 +24,9 @@ public class TypesOfExcep {
 
 
 
-        System.out.println(ExcelReader.read("/Users/apple/IdeaProjects/SDETBatch14Java/Data/Test.xlsx"));
+        System.out.println(ExcelReader.read("/Users/ark/IdeaProjects/SDETBatch14/Data/Test.xlsx"));
 
 
     }
 }
+*/

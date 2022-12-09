@@ -1,3 +1,4 @@
+/*
 package class29;
 
 import class27.Dog;
@@ -34,3 +35,4 @@ public class MethodsDemo {
         System.out.println(map.get("Age"));
     }
 }
+*/

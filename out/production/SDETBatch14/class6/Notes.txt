@@ -1,3 +1,0 @@
-JAVA Class 6
-    Logical AND (&&) - all condition must be TRUE.
-    Logical OR (||) - at least one condition must be TRUE.

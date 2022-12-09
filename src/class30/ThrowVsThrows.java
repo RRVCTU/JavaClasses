@@ -1,3 +1,4 @@
+/*
 package class30;
 
 import utils.ExcelReader;
@@ -24,3 +25,4 @@ public class ThrowVsThrows {
         method1();
     }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package class29;
 
 import utils.ExcelReader;
@@ -13,14 +14,19 @@ public class Review1 {
         String path = "/Users/ark/IdeaProjects/SDETBatch14/Data/Book.xlsx";
         var data = ExcelReader.read(path);
 
+*/
 /*        Map<String, String> row1 = data.get(0);
-        System.out.println(row1.get("Name"));*/
+        System.out.println(row1.get("Name"));*//*
 
+
+*/
 /*        for (var row : data) {
             System.out.println(row);
-        }*/
+        }*//*
+
 
         System.out.println(data);
 
     }
 }
+*/
