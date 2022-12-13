@@ -11,6 +11,7 @@ public class HW_05 {
         fullemail = fullemail + lastName.toLowerCase();
         fullemail += "@";
         fullemail += email.toLowerCase();
+        fullemail += ".com";
         System.out.println(fullemail);
     }
 
