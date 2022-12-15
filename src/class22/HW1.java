@@ -34,7 +34,7 @@ public class HW1 {
         }
         @Override
         void rest() {
-            System.out.println("Syntax Students do not have time for rest");
+            System.out.println("Syntax Student do not have time for rest");
         }
         void code() {
             System.out.println("Do Repls and write some code");

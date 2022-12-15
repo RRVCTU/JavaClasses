@@ -1,0 +1,58 @@
+Types of variables in Java with respect to their scope:
+    There are three types of variables in java with respect to their scope.
+    Local, instance, and static variables.
+
+Local variables:
+    If a variable is declared inside a block of code like method, loop, if-condition
+    they are called local variables.
+Up-side of a local variable:
+    The local variable exists for a very short amount of time in the memory.
+    Which means other programs on our computer can use that memory.
+Down-side of local variables:
+    Their scope is very limited. Only inside that block in which they are created.
+    We can't access them outside that block.
+When to use:
+    We should always try to use local variable over instance variables whenever it is possible.
+Instance variables:
+    They are inside the class but outside the method.
+    The variables which are declared inside a class but outside of block of code are called
+    instance variables.
+Up-side of instance variables:
+    We can use these variables inside any block of code that is inside that class.
+Down-side of instance variables:
+    Consume the memory for longest time. They occupy the memory for longer than a local variable.
+When we should use instance variables:
+    1) When we need to share a value between two or more methods than we should go with the instance variable.
+    2) When we are planning to create multiple objects of a class and it is possible that all the objects
+       can have a diffirent value for that variable.
+
+Static variable:
+    An instance variable with static keyword is called a static variable.
+Up-side:
+    We can share data across the objects with the help of static variable.
+Down-side:
+    They occupy the memory for the longest period.
+When to use:
+    When we want to share something across all the methods.
+
+=======================================================================================================
+
+Access Modifiers:
+    Access modifiers are keywords which control the access of fields or methods or the class itself.
+    There are four access levels and three access modifier keywords. These are only applicable to
+    instance or static variable not to local variables.
+
+1) Private access modifier.
+    Private is the most restricted one. If we use private keyword with any variable or method,
+    we can only access it within the same class.
+When we should use private access modifier.
+    We should use it always when it is possible. We should always try to create variables as private.
+    The data that we store inside the private variables is secured.
+2) Default access modifier (doesn't need any keyword).
+    Default is not a keyword. Whenever we don't assign any access modifier keyword like private or
+    public, Java assigns default access level to those variables or method.
+    The variables or methods which have default access level can be accessed within the whole package.
+3) Public access modifier.
+    Any class in the whole project can access this variable or method. Public access is the most
+    unrestricted access modifier. Once used with a variable or a method we can access that variable
+    or method anywhere in our project.
