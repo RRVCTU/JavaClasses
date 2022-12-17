@@ -18,12 +18,12 @@ public class Dog {
     }
 
     void sleeep() {
-        System.out.println("Dog is sleeping...............");
+        System.out.println("Cat is sleeping...............");
     }
 
     public static void main(String[] args) {
         // creating objects from a class
-        // new Dog(); => it creates an object of class Dog
+        // new Cat(); => it creates an object of class Cat
         Dog dog1 = new Dog();
         // calling a behavior on an object
         dog1.bark();

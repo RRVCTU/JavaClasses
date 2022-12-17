@@ -15,9 +15,9 @@ public class ArrayListDemo {
         dogs.add(dog2);
         dogs.add(dog3);
 
-        /*dogs.add(new Dog("Tomy", "Black", "German"));
-        dogs.add(new Dog("Jony", "White", "BullDog"));
-        dogs.add(new Dog("Kimi", "Brown", "German"));*/
+        /*dogs.add(new Cat("Tomy", "Black", "German"));
+        dogs.add(new Cat("Jony", "White", "BullDog"));
+        dogs.add(new Cat("Kimi", "Brown", "German"));*/
 
         // System.out.print(dogs);
         System.out.print(dog1);

@@ -37,7 +37,7 @@ public class Dog {
 
     @Override
     public String toString() {
-        return "Dog{" +
+        return "Cat{" +
                 "name='" + name + '\'' +
                 ", color='" + color + '\'' +
                 ", breed='" + breed + '\'' +

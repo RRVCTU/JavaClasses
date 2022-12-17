@@ -1,4 +1,4 @@
-package Review2WithAsel;
+package Review2;
 
 public class Dog {
     String name; // instance variable
@@ -6,7 +6,7 @@ public class Dog {
     static String breed;
 
     void printInfo() {
-        System.out.println("Dog features: " + name + ", " + weight + ", " + breed);
+        System.out.println("Cat features: " + name + ", " + weight + ", " + breed);
     }
 
     void love(String thing) {

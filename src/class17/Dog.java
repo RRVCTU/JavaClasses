@@ -21,7 +21,7 @@ public class Dog {
     }
 
     public static void main(String[] args) {
-/*        Dog dog = new Dog();
+/*        Cat dog = new Cat();
         dog.name = "Tomy";
         dog.breed = "Huskey";
         dog.color = "Pink";

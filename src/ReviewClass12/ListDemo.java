@@ -6,7 +6,7 @@ import java.util.ListIterator;
 public class ListDemo {
     public static void main(String[] args) {
         ArrayList<String> animals = new ArrayList<>();
-        animals.add("Dog");  // when we use the simple add method that takes one parameter element are added
+        animals.add("Cat");  // when we use the simple add method that takes one parameter element are added
         animals.add("Cat");  // at the end of the List.
         animals.add("Lion");
         animals.add("Monkey");

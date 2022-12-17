@@ -17,7 +17,7 @@ public class MapsDemo5 {
         // Set<Map.Entry<String, Double>> entrySet = items.entrySet();
         var entrySet = items.entrySet();
 
-        /* var dog = new Dog();
+        /* var dog = new Cat();
         var number = 10.2;*/
 
         System.out.println(entrySet);

@@ -1,4 +1,4 @@
-package Review2WithAsel;
+package Review2;
 
 public class School {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 /*
 package class29;
 
-import class27.Dog;
+import class27.Cat;
 import utils.ExcelReader;
 
 import java.io.IOException;
@@ -11,8 +11,8 @@ import java.util.Map;
 
 public class MethodsDemo {
 
-    public static Dog returnDog() {
-        return new Dog("Fuff", "green", "German");
+    public static Cat returnDog() {
+        return new Cat("Fuff", "green", "German");
     }
 
     public static Map<String, String> getMap() {
@@ -23,7 +23,7 @@ public class MethodsDemo {
     }
 
     public static void main(String[] args) throws IOException {
-        Dog dog = returnDog();
+        Cat dog = returnDog();
         System.out.println(dog);
 
         System.out.println(getMap());

@@ -12,7 +12,7 @@ public class Task1 {
          */
         ArrayList<Insurance> insurances=new ArrayList<>();
         insurances.add(new Car("Adam","Tesla Model s"));
-        insurances.add(new Pet("Geico","Dog"));
+        insurances.add(new Pet("Geico","Cat"));
         insurances.add(new Health("State life"));
         System.out.println(insurances);
 
