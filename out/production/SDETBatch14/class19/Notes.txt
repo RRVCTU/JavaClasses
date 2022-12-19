@@ -1,26 +1,28 @@
-
-
-    if we have same name instance and a local variable we can use "this" to
-    explicitly refer to instance variable. We can use "this()" to call a constructor inside another
-    constructor.
+"this" keyword:
+    "this" is a keyword like "class", "void". It is used in many places. For example if we have same name
+    instance and a local variable we can use "this" to explicitly refer to instance variable.
+    We can use "this()" to call a constructor inside another constructor.
 Why should we learn about "this" keyword:
-    1) It allows us to have same name local and instance variables.
-    2) If we have same code in two constructors we can reuse that code from one constructor
-    inside another constructor by writing "this()".
+    1) It allows us to have the same name for local and instance variables.
+    2) If we have the same code in two constructors, we can reuse the code from one constructor inside
+    another constructor by writing "this()".
 Inheritance:
-    Inheritance is a mechanism in java through which we can use the fields/methods of
-    one class inside another class.
-    There are 4 types of inheritance.
-    1) single inheritance:
-        In single inheritable we have only one parent and one child class.
-        Employee -> Person.
-    2) Multilelel Inheritance:
-        In Multilevel inheritance we have inheritance in multiple levels like we have a grandfather -> father -> son ->grandson.
-    3) Hierarchical inheritance:
-        One parent class and multiple direct child classes.
-    4) Multiple inheritance:
-        One child class can directly inherit from multiple parent classes.
-Why should we learn inheritance?
-    It allows to reduce the duplicate code.
+    Inheritance is a mechanism in Java through which we can use the fields/methods of one class inside
+    another class.
+    There are 4 types of inheritance (Single, Multilevel, Hierarchical, and Multiple), but Java use only 3 of
+    them (Single, Multilevel, Hierarchical).
+    1) Single inheritance: Only one parent and only one child class.
+    Employee -> Person
+    2) Multilevel inheritance: This about building with flor (levels). In multilevel inheritance we have
+    inheritance in mulitple levels like:
+    1 level: Grandparent
+    2 level: Father
+    3 level: Son
+    4 level: Grandson
+    3) Hierarchical inheritance: One parent class and multiple direct child classes.
+    4) Multiple inheritance: Once child class can directly inherit from multiple parent classes
+       (diamond problem). But multiple inheritance does not supported by Java.
+Why should we learn concept of inheritance?
+    It allows us to reduce the duplicate code in out program.
 What is the syntax?
-    We can use this feature by writing extends keyword when declaring a class.
+    We can use inheritance by writing "extends" keyword when declaring any child class.
