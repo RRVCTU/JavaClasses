@@ -9,5 +9,8 @@ public class School {
         t1.teach();
 
         Teacher t2 = new Teacher("Jack","Smith",5);
+
+        Teacher.school = "Syntax";
+        Teacher.work();
     }
 }

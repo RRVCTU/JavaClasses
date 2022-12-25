@@ -27,17 +27,27 @@ public class Teacher {
         this.experience = experience;
     }
 
+    // static method can work with only other static variables, not instance variables.
     static void work() {
         System.out.println("All teachers work at "+school);
     }
 
     void print(){
+        work();
         System.out.println("Teacher name is "+name+" "+lname);
     }
 
     void teach(){
         this.print(); // we can call another method from the current method
-        print();      // same call method, but different syntax
         System.out.println(name+" teaches "+subject);
+    }
+
+    //method that will calculate bonus based on years of experience and returns it
+    double getBonus() {
+        if(experience<5) {
+            return 3;
+        } else {
+            return 3.5;
+        }
     }
 }
