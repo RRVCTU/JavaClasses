@@ -11,6 +11,10 @@ public class School {
         Teacher t2 = new Teacher("Jack","Smith",5);
 
         Teacher.school = "Syntax";
-        Teacher.work();
+        Teacher.work();  // public is accessible
+
+        t2.print();      // protected method is accessible
+        t2.teach();      // default method is accessible
+//        t2.getBonus(); This method is not accessible because of the private modifier
     }
 }
